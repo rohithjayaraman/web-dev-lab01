@@ -10,11 +10,39 @@ body {
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
+main {
+    display: flex;
+}
+section {
+    box-sizing: border-box;
+    border: solid 1px #CCC; 
+    width: 50vh;   
+    padding: 10px;
+    margin-left: 20px;
+}
 
+h2, p, button {
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: ;
+}
+
+img {
+    width: 100%;
+    height: 40vh;
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+    main {
+        flex-wrap: wrap;
+    }
 
+    section {
+        width: 30vh;
+    }
 }
 
 /* Mobile Phone Media Query */
